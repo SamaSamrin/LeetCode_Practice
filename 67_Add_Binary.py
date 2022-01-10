@@ -20,6 +20,9 @@ def addBinary(a, b):
         return sum[2:]
     
  """
+ Runtime: 22 ms
+ Memory Usage: 13.7 MB
+ 
  Explanation: We first convert the string a into a binary with int(a, 2), where the second argument denotes the base.
  Then the bin() function converts and returns the binary equivalent string of their resulting sum
  Since this results in the sum string having a prefix of "0b", we deduct it while returning by eliminating the first two characters of sum.
